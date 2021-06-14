@@ -1,29 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj": {}
+    "C:\\Users\\limps\\Desktop\\Mi proyecto\\LibreriaProgra-main\\LibreriaProgra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj": {
+    "C:\\Users\\limps\\Desktop\\Mi proyecto\\LibreriaProgra-main\\LibreriaProgra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj",
+        "projectUniqueName": "C:\\Users\\limps\\Desktop\\Mi proyecto\\LibreriaProgra-main\\LibreriaProgra.csproj",
         "projectName": "LibreriaProgra",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\obj\\",
+        "projectPath": "C:\\Users\\limps\\Desktop\\Mi proyecto\\LibreriaProgra-main\\LibreriaProgra.csproj",
+        "packagesPath": "C:\\Users\\limps\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\limps\\Desktop\\Mi proyecto\\LibreriaProgra-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\limps\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -87,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
