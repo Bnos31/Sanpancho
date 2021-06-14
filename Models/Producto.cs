@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LibreriaProgra.Models
 {
-    [Table("t_libro")]
+    [Table("t_Montura")]
     public class Producto
     {
 
@@ -13,46 +13,46 @@ namespace LibreriaProgra.Models
     [Column("id")]
     public int ID { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el nombre del libro a registrar")]
-    [Display(Name="Nombre")] 
-    [Column("name")]
-    public string nombre { get; set; }
+    [Required(ErrorMessage="Debe ingresar el Codigo de la montura a registrar")]
+    [Display(Name="Codigo")] 
+    [Column("Codigo")]
+    public string Codigo { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el autor del libro a registrar")]
-    [Display(Name="Autor del libro")] 
+    [Required(ErrorMessage="Debe ingresar la Marca a registrar")]
+    [Display(Name="Marca")] 
     [RegularExpression(@"^[a-zA-Z ]*$", ErrorMessage = "Solo se permiten letras")]
-    [Column("autor")]
-    public string autor { get; set; }
+    [Column("Marca")]
+    public string Marca { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el idioma del libro a registrar")]
-    [Display(Name="Idioma del producto")] 
-    [Column("idioma")]
-    public string idioma { get; set; }
+    [Required(ErrorMessage="Debe ingresar la Talla registrar")]
+    [Display(Name="Talla")] 
+    [Column("Talla")]
+    public int Talla { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el ISBN del libro a registrar")]
-    [Display(Name="ISBN del libro")] 
-    [Column("isbn")]
-    public string isbn { get; set; }
+    [Required(ErrorMessage="Debe ingresar el Material a registrar")]
+    [Display(Name="Material")] 
+    [Column("Material")]
+    public string Material { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar la editorial del libro a registrar")]
-    [Display(Name="Editorial del libro")] 
-    [Column("editorial")]
-    public string editorial { get; set; }
+    [Required(ErrorMessage="Debe ingresar la Descripcion de la montura a registrar")]
+    [Display(Name="Descripcion de la montura")] 
+    [Column("Descripcion")]
+    public string Descripcion { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar el precio del libro a registrar")]
-    [Display(Name="Precio del producto")] 
-    [Column("precio")]
-    public Decimal precio { get; set; }
+    [Required(ErrorMessage="Debe ingresar el Color de la montura a registrar")]
+    [Display(Name="Color del producto")] 
+    [Column("Color")]
+    public string Color { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar las paginas del libro a registrar")]
-    [Display(Name="Paginas del libro")] 
-    [Column("pages")]
-    public int? pagina { get; set; }
+    [Required(ErrorMessage="Debe ingresar el numero de Stock a registrar")]
+    [Display(Name="Stock de la montura")] 
+    [Column("Stock")]
+    public int? Stock { get; set; }
 
-    [Required(ErrorMessage="Debe ingresar la descripcion del libro a registrar")]
-    [Display(Name="Descripcion del libro")] 
-    [Column("descripcion")]
-    public string descripcion { get; set; }
+    [Required(ErrorMessage="Debe ingresar el Precio a registrar")]
+    [Display(Name="Precio del Montura")] 
+    [Column("Precio")]
+    public Decimal Precio { get; set; }
 
     [Required(ErrorMessage="Debe ingresar la imagen del libro a registrar")]
     [Display(Name="URL de imagen del libro")] 

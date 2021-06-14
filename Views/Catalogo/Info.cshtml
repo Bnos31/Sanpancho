@@ -16,15 +16,15 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <h4 style="text-align: center;" class="colorForm">@Model.nombre</h4>
+                <h4 style="text-align: center;" class="colorForm">@Model.Codigo</h4>
                 <hr>
                 <ul class="list-unstyled">
                     <li>
-                        <p class="colorForm">AUTOR: @Model.autor</p>
+                        <p class="colorForm">DESCRIPCIÓN: @Model.Descripcion</p>
                         <hr>
                     </li>
                     <li>
-                        <p Class="colorForm">DESCRIPCIÓN: @Model.descripcion</p>
+                        <p Class="colorForm">Marca: @Model.Marca</p>
                        
                     </li>
                 </ul>
@@ -33,7 +33,7 @@
                 <h4 style="text-align: center;" class="colorForm">PRECIO</h4>
                 <hr>
                 <ul class="list-unstyled" style="text-align: center;">
-                    <li class="colorForm">@Model.precio</li>
+                    <li class="colorForm">@Model.Precio</li>
                     <hr>
                     <li><a asp-controller="Orden" asp-action="AddItem" asp-route-id="@Model.ID" class="btn btn-success"><i class="icofont-cart"></i> Agregar</a></li>
                 </ul>
@@ -43,7 +43,7 @@
     
     <div class="container">
         <hr>
-        <h3>Libros parecidos</h3>
+        <h3>Monturas parecidas</h3>
         <hr>
         <div class="row">
             <div class="col-md-4">

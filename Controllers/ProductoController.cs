@@ -33,7 +33,7 @@ namespace LibreriaProgra.Controllers
 
         public IActionResult Listar()
         {
-            var listContactos=_context.Productos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
+            var listContactos=_context.Productos.OrderBy(y => y.Marca).OrderBy(x => x.Descripcion).ToList();
             return View(listContactos);
         }
      

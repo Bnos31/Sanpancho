@@ -33,8 +33,8 @@ namespace LibreriaProgra.Controllers
 
             var orderDetail = new OrdenDetail();
             orderDetail.productoID = producto.ID;
-            orderDetail.Nombre = producto.nombre;
-            orderDetail.Precio = producto.precio;
+            orderDetail.Nombre = producto.Marca;
+            orderDetail.Precio = producto.Precio;
             orderDetail.Cantidad = 1;
             var name = _userManager.GetUserName(User);
             orderDetail.Email = name;

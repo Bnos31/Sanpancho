@@ -27,7 +27,7 @@ namespace LibreriaProgra.Controllers
 
         public IActionResult Index()
         {
-            var listContactos=_context.Productos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
+            var listContactos=_context.Productos.OrderBy(y => y.Codigo).OrderBy(x => x.Descripcion).ToList();
             return View(listContactos);
         }
 
